@@ -1,0 +1,58 @@
+/*Global*/
+body {
+    margin: 0;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+.container {
+	display: -ms-flexbox;
+	display: flex;
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+    background-image: url('https://i.postimg.cc/vTq6Zf7w/allianz-arena-architecture-car-1103969.jpg');
+    width: 100%;
+    height: 100vh;
+   	background-size: cover;
+}
+h1 {
+	text-transform: capitalize;
+	padding-top: 60px;
+	margin: 0;
+}
+p {
+	position: relative;
+	top:60px;
+	font-size: 25px;
+}
+p::first-letter {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+}
+.footer {
+    padding: 24px 0;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    background: rgba(34, 47, 62,1.0);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    text-align: center;
+    transition: all 1s;
+}
+.footer ul li a {
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+}
+.footer ul li:hover {
+        transform: scale(1.2);
+}
