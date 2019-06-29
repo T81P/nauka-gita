@@ -1,3 +1,2 @@
-autoprefixer-cli
-
-nu-html-checker
+autoprefixer-cli -o main.prefixed.css main.css
+nu-html-validator  ??????
